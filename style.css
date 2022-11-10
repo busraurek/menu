@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    background-image: url('https://st2.depositphotos.com/2124221/47648/v/600/depositphotos_476483068-stock-illustration-colored-background-different-accessories.jpg');
+    
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f8;
+    font-family: "Zilla Slab", serif;
+    
+  }
+  
+  h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: red;
+  }
+  .menu {
+    margin-top: 20px;
+
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0; 
+  }
+  .filter-btn{
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-color: rgb(197, 197, 197);
+    padding: 6px;
+    width: 60px;
+  }
+ 
+  
+  .photo {
+    width: 30%;
+    height: 175px;
+    object-fit: cover;
+    border: 0.25rem solid black;
+    border-radius: 10px;
+    
+  }
+  .menu-items {
+    display: flex;
+    margin: 20px 0;
+    float: left;
+    width: 50%;
+  }
+  .menu-info {
+    margin-left: 20px;
+    width: 100%;
+  }
+  .menu-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    float: left;
+    width:80%
+  }
+  .menu-text {
+    padding-top: 20px;
+  }
+
+  
+  h4 {
+    color: red;
+    font-weight: bold;
+  }
+  
+
+.price {
+  border-bottom: 1px solid gray;
+  color: black;
+}
